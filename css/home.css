@@ -1,0 +1,58 @@
+@import url('main.css');
+
+main {
+    display: flex;
+}
+
+#title-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: inherit;
+    text-align: center;
+
+    > * {
+        margin: 0;
+        text-shadow: 0.6rem 0.6rem 1.3rem black;
+    }
+
+    > h1 {
+        
+        font-size: 8rem;
+    }
+
+    > p {
+        font-size: 5rem;
+    }
+}
+
+#circles {
+    display: flex;
+    align-items: center;
+}
+
+.img-circle {
+    background-color: green;
+    border: 1.3rem solid white;
+    border-radius: 50%;
+    margin: 0.25rem;
+}
+
+#inasal-circle {
+    width: 20rem;
+    animation: rotate 7s infinite linear;
+}
+
+#tocilog-circle {
+    width: 16rem;
+    
+    animation: rotate-reversed 7s infinite linear;
+}
+
+#bbq-circle {
+    width: 12rem;
+
+    animation: rotate 7s infinite linear;
+}

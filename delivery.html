@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logos/logo-no-text.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/delivery.css">
+	<title>Our Website</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="logo">
+				<img src="images/logos/large-logo.png" alt="Logo">
+			</div>
+			
+			<a href="home.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="menu.html">Menu</a>
+			<a class="current-page" href="delivery.html">Delivery</a>
+		</nav>	
+	</header>
+	
+	<main>
+		<div id="delivery-container">
+			<div id="menu-container">
+				<h1>Delivery</h1>
+				<div class="menu-category">
+					<button class="category">
+						<img src="images/food-menu/main-dishes/inasal.png">
+						<h2>Main Dishes</h2>
+					</button>
+
+					<button class="category">
+						<img src="images/food-menu/silogs/tocilog.png">
+						<h2>Silogs</h2>
+					</button>
+
+					<button class="category">
+						<img src="images/food-menu/addons/Veggie Rice.png">
+						<h2>Addons</h2>
+					</button>
+				</div>
+
+				<div class="menu-options">
+					<div class="menu-item">
+						<img src="images/food-menu/main-dishes/inasal.png" alt="Chicken Inasal">
+						<h2 class="food-name">Chicken Inasal</h2>
+						<p class="food-description">Unli Rice, Soup, Drinks</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 149.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+						<p class="food-description">with Rice</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 129.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+					</div>
+
+					<div class="menu-item">
+						<img src="images/food-menu/main-dishes/bbq.png" alt="Pork Barbeque">
+						<h2 class="food-name">Pork Barbeque</h2>
+						<p class="food-description">Unli Rice, Soup, Drinks</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 150.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+						<p class="food-description">with Rice</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 130.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+					</div>
+
+					<div class="menu-item">
+						<img src="images/food-menu/main-dishes/pork-sisig.png" alt="Pork Sisig">
+						<h2 class="food-name">Pork Sisig</h2>
+						<p class="food-description">Unli Rice, Soup, Drinks</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 150.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+						<p class="food-description">with Rice</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 130.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+					</div>
+
+					<div class="menu-item">
+						<img src="images/food-menu/main-dishes/pork-liempo.png" alt="Pork Liempo">
+						<h2 class="food-name">Pork Liempo</h2>
+						<p class="food-description">Unli Rice, Soup, Drinks</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 155.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+						<p class="food-description">with Rice</p>
+						<div class="prices-container">
+							<h3 class="food-price">Php 135.00</h3>
+							<button class="add-to-orders" title="Add to orders">+</button>
+						</div>
+					</div>				
+				</div>
+			</div>
+			
+			<button id="view-orders-button">
+				<div id="total-orders">0</div>
+				View Orders
+			</button>
+		</div>
+
+		<div id="order-tab">
+			<h2>Orders</h2>
+
+			<div id="order-list">
+
+			</div>
+
+			<div id="order-buttons-container">
+				<button id="check-out">Checkout</button>
+				<button id="close-orders">Close</button>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<p>&copy JC Cordero</p>
+	</footer>
+	<script src="scripts/delivery.js"></script>
+	<script src="scripts/orders.js"></script>
+</body>
+</html>
